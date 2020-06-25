@@ -1,0 +1,236 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html, body {
+	height: 100%;
+}
+/**Estilo para o plugin slick**/
+	
+	
+	.slick-dotted ul{
+		list-style-type: none;
+		text-align: center;
+		position: relative;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+
+	.slick-dotted li{
+		display: inline-block;
+		margin:0 12px;
+		padding: 0 20px;
+	}
+
+	.slick-dotted button:focus{
+		outline: 0;
+	}
+
+	.slick-dotted li button{
+		width: 16px;
+		height: 16px;
+		border-radius: 8px;
+		border-width: 0;
+		background: white;
+		color: white;
+		cursor: pointer;
+	}
+
+	li.slick-active button{
+		background: #fade00;
+		color: #fade00;
+
+	}
+
+	.slick-slide:focus{outline: none;}
+	
+
+/**Fim do estilo para o plugin**/}
+
+.clear {
+	clear: both;
+}
+
+.container {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1280px;
+}
+
+/** Header iniciado **/
+
+.header {
+	width: 100%;
+	background-color: black;
+	height: 100px;
+}
+
+header .icon1 {
+	width: 80px;
+	height: 80px;
+	margin: 10px 2%;
+	float: left;
+	background-image: url(../images/logo-1.png);
+	background-size: cover;
+}
+
+header .icon2 {
+	width: 80px;
+	height: 80px;
+	margin: 10px 2%;
+	float: right;
+	background-image: url(../images/logo-2.png);
+	background-size: cover;
+}
+
+header .title {
+	text-align: center;
+	color: white;
+	display: inline;
+	line-height: 110px;
+	font-family: 'Great Vibes', cursive;
+	font-size: 35px;
+}
+
+/** Header finalizado **/
+
+
+.carrocel-wraper {
+	background-color: black;
+	width: 100%;
+	float: left;
+}
+
+.carrocel-wraper .images {	
+	width: 33.3%;
+	padding-top: 5%;
+	display: inline-block;
+	border: 5px solid black;
+	margin-right: -4px;
+}
+
+.images {
+	background-size: cover;
+	background-position: center;
+}
+
+/** Sessão Catedral **/
+
+.cat-title {
+	text-align: center;
+	font-size: 30px;
+	display: inline;
+	line-height: 150px;
+	font-family: 'Great Vibes', cursive;
+}
+
+.mosaic-flex {
+	display: flex;
+}
+
+.m1 {
+	width: 60%;
+	height: 400px;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+
+}
+
+.m2 {
+	width: 40%;
+	padding: 2%;
+	line-height: 20px;
+}
+.m2 h1{
+	text-align: center;
+}
+
+
+
+
+/**Fim Sessão Catedral  **/
+
+/** Sessão contrutores  **/
+
+.construtores {
+	display: inline-block;
+	width: 100%;
+	margin: 50px 0;
+}
+
+.construct-1 {
+	background-color: grey;
+	width: 50%;
+	float: right;
+}
+
+.construct-2 {
+	background-color: #ccc;
+	width: 50%;
+	float: left;
+}
+
+/**Fim sessão construtores **/
+
+/**Sessão Escultores**/
+
+.escultores {
+	display: inline-block;
+	width: 100%;
+	margin: 50px 0;
+}
+
+.escult-1 {
+	background-color: grey;
+	width: 50%;
+	float: right;
+}
+
+.escult-2 {
+	background-color: #ccc;
+	width: 50%;
+	float: left;
+}
+
+/** Fim Sessão Escultores **/
+
+/** Sessão Livros **/
+
+.sec-livros h2{
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.menu-livros li {
+	width: 20%;
+	display: inline-block;
+	text-align: center;
+	margin-right: -4px;
+}
+
+.menu-livros a {
+	text-decoration: none;
+}
+
+.livro {
+	display: none;
+} 
+
+.livro h2 {
+	margin-top: 30px;
+}
+
+.livro .img-livro {
+	width: 150px;
+	height: 150px;
+	background-color: black;
+	margin: 20px auto;
+}
+
+
+
+/** Fim Sessão Livros **/
+
+/** **/
